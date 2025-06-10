@@ -1,2 +1,23 @@
-# image_tranformation
-A simple project to visualize image augmentations (resize, crop, zoom, flip, etc.) on a cat vs. dog dataset using TensorFlow and Matplotlib. Ideal for beginners exploring data preprocessing and augmentation.
+# 🐶🐱 Image Augmentation & Visualization with TensorFlow
+
+This project demonstrates how to load, augment, and visualize images from a cat and dog dataset using TensorFlow’s preprocessing layers. Data augmentation helps improve model generalization by introducing variability into the training data, simulating real-world conditions like rotation, zoom, brightness, and more.
+
+---
+
+## 📌 Project Highlights
+
+- ✅ Load image datasets using `image_dataset_from_directory`
+- 🔍 Visualize image samples and their labels
+- 🔄 Apply a variety of augmentation techniques
+- 📊 Understand how each transformation affects the input data
+- 🎓 Great for beginners learning deep learning or computer vision
+
+---
+
+## 🚀 Getting Started
+
+### 1. Mount Google Drive (for Colab users)
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
